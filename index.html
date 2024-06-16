@@ -1,13 +1,45 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adventure Capatilist Clone</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Adventure Capitalist Clone</h1>
+        <div class="business" id="lemonade-stand">
+            <h2>Lemonade Stand</h2>
+            <button onclick="buyLemonadeStand()" >Buy Lemonade Stand ($10)</button>
+            <div>Owned : <span id="lemonade-count">0</span></div>
+            <div>Revenue: $1/sec</div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Capitalist Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adventure Capitalist Clone</h1>
+        <div id="money">Money: $0</div>
+        <div class="business" id="lemonade-stand">
+            <h2>Lemonade Stand</h2>
+            <button id="buy-button">Buy Lemonade Stand ($10)</button>
+            <div>Owned: <span id="lemonade-count">0</span></div>
+            <div>Revenue: $1/sec</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
